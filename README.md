@@ -69,7 +69,7 @@ npm run build
 1. 在 GitHub 上创建一个新的公开或私有仓库，例如 `dev-privacy-box`。
 2. 在本地项目根目录下运行：
    ```bash
-   git remote add origin https://github.com/<你的GitHub用户名>/dev-privacy-box.git
+   git remote add origin https://github.com/Mianm-l/dev-privacy-box.git
    git branch -M main
    git push -u origin main
    ```

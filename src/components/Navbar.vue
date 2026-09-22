@@ -30,7 +30,7 @@
         </button>
 
         <a 
-          href="https://github.com" 
+          href="https://github.com/Mianm-l/dev-privacy-box" 
           target="_blank" 
           class="btn-secondary" 
           style="text-decoration: none; padding: 0.45rem 0.85rem; font-size: 0.8rem;"
