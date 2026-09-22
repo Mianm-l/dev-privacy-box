@@ -15,25 +15,35 @@
   --success-light: rgba(16, 185, 129, 0.15);
   --warning: #f59e0b;
   --code-bg: #090d16;
+  --code-output-sql: #38bdf8;
+  --code-output-java: #34d399;
+  --code-output-masked: #fbbf24;
+  --code-output-jwt: #c084fc;
+  --code-output-header: #fb7185;
 }
 
 [data-theme="light"] {
   --bg-main: #f8fafc;
   --bg-card: #ffffff;
   --bg-card-hover: #f1f5f9;
-  --bg-input: #f8fafc;
-  --border-color: #e2e8f0;
-  --border-focus: #3b82f6;
+  --bg-input: #ffffff;
+  --border-color: #cbd5e1;
+  --border-focus: #2563eb;
   --text-main: #0f172a;
-  --text-muted: #475569;
-  --text-dim: #94a3b8;
+  --text-muted: #334155;
+  --text-dim: #64748b;
   --accent: #2563eb;
   --accent-hover: #1d4ed8;
   --accent-light: rgba(37, 99, 235, 0.1);
   --success: #059669;
   --success-light: rgba(5, 150, 105, 0.1);
   --warning: #d97706;
-  --code-bg: #f1f5f9;
+  --code-bg: #f8fafc;
+  --code-output-sql: #0369a1;
+  --code-output-java: #065f46;
+  --code-output-masked: #92400e;
+  --code-output-jwt: #6b21a8;
+  --code-output-header: #be123c;
 }
 
 * {

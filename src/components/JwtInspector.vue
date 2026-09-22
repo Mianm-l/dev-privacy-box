@@ -90,7 +90,7 @@
             :value="headerFormatted"
             readonly
             class="input-field code-area"
-            style="height: 110px; background: var(--code-bg); color: #f43f5e; resize: none;"
+            style="height: 110px; background: var(--code-bg); color: var(--code-output-header); font-weight: 500; resize: none;"
           ></textarea>
         </div>
 
@@ -108,7 +108,7 @@
             :value="payloadFormatted"
             readonly
             class="input-field code-area"
-            style="height: 240px; background: var(--code-bg); color: #c084fc; resize: vertical;"
+            style="height: 240px; background: var(--code-bg); color: var(--code-output-jwt); font-weight: 500; resize: vertical;"
           ></textarea>
         </div>
       </div>

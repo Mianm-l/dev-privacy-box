@@ -88,7 +88,7 @@
           v-model="maskedText"
           readonly
           class="input-field code-area"
-          style="height: 480px; resize: vertical; background: var(--code-bg); color: #fde047;"
+          style="height: 480px; resize: vertical; background: var(--code-bg); color: var(--code-output-masked); font-weight: 500;"
           placeholder="脱敏后的安全内容将实时显示在此处..."
         ></textarea>
       </div>

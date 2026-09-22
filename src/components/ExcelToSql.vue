@@ -98,7 +98,7 @@
           v-model="sqlOutput"
           readonly
           class="input-field code-area"
-          style="height: 480px; resize: vertical; background: var(--code-bg); color: #38bdf8;"
+          style="height: 480px; resize: vertical; background: var(--code-bg); color: var(--code-output-sql); font-weight: 500;"
           placeholder="生成的 SQL 语句将显示在这里..."
         ></textarea>
       </div>

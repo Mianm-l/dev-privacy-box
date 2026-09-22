@@ -100,7 +100,7 @@
           v-model="codeOutput"
           readonly
           class="input-field code-area"
-          style="height: 500px; resize: vertical; background: var(--code-bg); color: #a7f3d0;"
+          style="height: 500px; resize: vertical; background: var(--code-bg); color: var(--code-output-java); font-weight: 500;"
           placeholder="生成的实体类代码将显示在此处..."
         ></textarea>
       </div>
