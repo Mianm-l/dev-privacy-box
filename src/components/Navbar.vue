@@ -10,7 +10,7 @@
           <div>
             <h1 style="font-size: 1.25rem; font-weight: 700; letter-spacing: -0.02em; display: flex; align-items: center; gap: 0.5rem;">
               DevPrivacyBox
-              <span style="font-size: 0.75rem; font-weight: 600; padding: 0.15rem 0.45rem; border-radius: 4px; background: var(--accent-light); color: var(--accent); border: 1px solid var(--accent);">v1.0</span>
+              <span style="font-size: 0.75rem; font-weight: 600; padding: 0.15rem 0.45rem; border-radius: 4px; background: var(--accent-light); color: var(--accent); border: 1px solid var(--accent);">v1.1</span>
             </h1>
             <p style="font-size: 0.8rem; color: var(--text-muted);">100% 浏览器本地运行 · 零数据外发 · 离线可用</p>
           </div>
@@ -48,7 +48,7 @@
         :key="tab.id"
         @click="$emit('select-tab', tab.id)"
         :class="['btn-secondary', { 'active-tab': currentTab === tab.id }]"
-        style="font-size: 0.85rem; padding: 0.5rem 1rem;"
+        style="font-size: 0.85rem; padding: 0.5rem 1rem; white-space: nowrap;"
       >
         <component :is="tab.icon" :size="16" />
         <span>{{ tab.name }}</span>
@@ -66,7 +66,9 @@ import {
   Github, 
   Database, 
   FileCode2, 
-  EyeOff 
+  EyeOff,
+  Clock,
+  KeyRound
 } from 'lucide-vue-next';
 
 defineProps({
@@ -79,6 +81,8 @@ defineEmits(['select-tab', 'toggle-theme']);
 const tabs = [
   { id: 'excel-to-sql', name: 'Excel / CSV ➔ 批量 SQL', icon: Database },
   { id: 'json-to-entity', name: 'JSON ➔ Java / TS 实体', icon: FileCode2 },
+  { id: 'cron-parser', name: 'Cron 表达式预测', icon: Clock },
+  { id: 'jwt-inspector', name: 'JWT 离线解析', icon: KeyRound },
   { id: 'data-masker', name: '敏感数据批量脱敏', icon: EyeOff }
 ];
 </script>

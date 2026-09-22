@@ -31,6 +31,8 @@ import { ref, computed, onMounted } from 'vue';
 import Navbar from './components/Navbar.vue';
 import ExcelToSql from './components/ExcelToSql.vue';
 import JsonToEntity from './components/JsonToEntity.vue';
+import CronParser from './components/CronParser.vue';
+import JwtInspector from './components/JwtInspector.vue';
 import DataMasker from './components/DataMasker.vue';
 
 const activeTab = ref('excel-to-sql');
@@ -40,6 +42,8 @@ const activeComponent = computed(() => {
   switch (activeTab.value) {
     case 'excel-to-sql': return ExcelToSql;
     case 'json-to-entity': return JsonToEntity;
+    case 'cron-parser': return CronParser;
+    case 'jwt-inspector': return JwtInspector;
     case 'data-masker': return DataMasker;
     default: return ExcelToSql;
   }
